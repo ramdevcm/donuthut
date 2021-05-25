@@ -125,6 +125,7 @@ const Footer = () => {
                                         <a href="#">Faq</a>
                                     </li>
                                 </ul>
+                                
                             </div>
                                
                         </div>

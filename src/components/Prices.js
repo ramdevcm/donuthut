@@ -25,7 +25,8 @@ const Prices = () => {
                             <p className="price__text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <p className="price_rs">
-                                75rs
+                            &#8377;75*
+                            <h6 className="price__strike">&#8377;99</h6>
                             </p>
                         </div>
                     </div>
@@ -41,7 +42,8 @@ const Prices = () => {
                             <p className="price__text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <p className="price_rs">
-                                80rs
+                            &#8377;65*
+                            <h6 className="price__strike">&#8377;99</h6>
                             </p>
                         </div>
                     </div>
@@ -57,7 +59,8 @@ const Prices = () => {
                             <p className="price__text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <p className="price_rs">
-                                100rs
+                            &#8377;89*
+                            <h6 className="price__strike">&#8377;129</h6>
                             </p>
                         </div>
                     </div>
@@ -73,7 +76,8 @@ const Prices = () => {
                             <p className="price__text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <p className="price_rs">
-                                80rs
+                            &#8377;79*
+                            <h6 className="price__strike">&#8377;99</h6>
                             </p>
                         </div>
                     </div>
@@ -89,7 +93,8 @@ const Prices = () => {
                             <p className="price__text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <p className="price_rs">
-                                99rs
+                            &#8377;95*
+                            <h6 className="price__strike">&#8377;99</h6>
                             </p>
                         </div>
                     </div>
@@ -105,7 +110,8 @@ const Prices = () => {
                             <p className="price__text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <p className="price_rs">
-                                89rs
+                            &#8377;86*
+                            <h6 className="price__strike">&#8377;99</h6>
                             </p>
                         </div>
                     </div>

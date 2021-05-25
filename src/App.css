@@ -293,6 +293,13 @@ body {
   border-radius: 50px;
 }
 
+@media (min-width: 700px) {
+
+  .price__img img {
+    width: 70%;
+  }
+}
+
 .price__heading {
   
   margin-top: 20px;
@@ -308,6 +315,10 @@ body {
 .price_rs {
   font-size: 30px;
   margin-top: 15px;
+}
+
+.price__strike {
+  text-decoration: line-through;
 }
 
 
