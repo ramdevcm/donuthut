@@ -111,6 +111,7 @@ const Footer = () => {
                                         <a href="#">Our Team</a>
                                     </li>
                                 </ul>
+                              
                                 <ul>
                                     <li>
                                         <a href="#">Contact us</a>
@@ -152,42 +153,7 @@ const Footer = () => {
                 <span>&lt;/&gt;Ramdev C M&lt;/&gt;</span>
             </div>
         </div>
-
-        {/* <div className="copyright">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6">
-                    Made with in India
-                        <span>Copyright © 2021, All Right Reserved</span>
-                    </div>
-                    
-                    <div className="col-md-4">
-                        <div className="copyright-menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
-                                </li>
-                                                           </ul>
-                        </div>
-                    </div>
-                     
-                </div>
-                   
-            </div>
-               
-        <div id="back-to-top" className="back-to-top">
-            <button className="btn-footer btn btn-dark" title="Back to Top">
-                <i className="fa fa-angle-up"></i>
-            </button>
-        </div>
-           
-        </div> */}
+      
 </div>
 
 
