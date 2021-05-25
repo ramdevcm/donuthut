@@ -2,25 +2,41 @@ import React from 'react';
 import logo from '../img/logo.png';
 import {Link , Router} from 'react-router-dom'
 
+import { Component } from 'react';
+import { MenuItems } from "./MenuItems"
 
-const Navbar = () => {
-    return (
-        <nav className='navbar'>
-            <div className="navbar__text">
+
+class Navbar extends Component {
+    state = { clicked: false }
+
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
+
+    render() {
+        return(
+            <nav className="NavbarItems">
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
-                <ul className='navbar__ul'>            
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/menu">Menu</Link></li>
-                    <li><Link to="/shop">Shop</Link></li>
-                    <li><Link to="/news">News</Link></li>
-                    <li><a href="/contact">Contact</a></li>
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fa fa-times' : 'fa fa-bars'}></i>
+                </div>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {MenuItems.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <a className={item.cName} href={item.url}>
+                                {item.title}
+                                </a>
+                            </li>
+                        )
+                    })}
                 </ul>
-            </div>
-            
-        </nav>
-    )
+                
+            </nav>
+        )
+    }
 }
 
 export default Navbar
