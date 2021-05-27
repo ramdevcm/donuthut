@@ -23,7 +23,7 @@ function App() {
       <Prices/>
       <Footer /> 
       <div className="login-signup-bg">
-        <AccountBox />
+       
       </div>
       </div>
   );

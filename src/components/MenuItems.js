@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         title: 'Sign up',
-        url: '#',
+        url: '/Design-Jam-Submission/login',
         cName: 'nav-links'
     }
 

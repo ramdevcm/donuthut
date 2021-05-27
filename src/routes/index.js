@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
 import { GuardProvider, GuardedRoute } from 'react-router-guards';
 import Header from '../components/Header';
 
@@ -22,16 +22,15 @@ const Router = () => {
 
         
       
-            
-              <Switch>
+                    <Link to='/Design-Jam-Submission/menu'>jsdbj</Link>
                     <Route path='/'  component={Header} />
-                    <Route path='/menu' exact component={Menu} />
+                    <Route path='/Design-Jam-Submission/menu'  component={Menu} />
                     <Route path='/about'exact component={About} />
                     <Route path='/shop'exact component={Shop} />
                     <Route path='/client'exact component={Clients} />
                     <Route path='/price'exact component={Prices} />
-                </Switch>
-                <Header/>
+                  
+              
       
       
         </BrowserRouter>

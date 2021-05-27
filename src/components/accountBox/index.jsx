@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 import styled from "styled-components";
 import { LoginForm } from "./loginForm";
 import { motion } from "framer-motion";
@@ -162,3 +162,4 @@ export function AccountBox(props) {
     </AccountContext.Provider>
   );
 }
+
